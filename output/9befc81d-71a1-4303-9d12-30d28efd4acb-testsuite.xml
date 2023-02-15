@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676328568177' stop='1676328603175'>
+    <name>Login User:</name>
+    <title>Login User:</title>
+    <test-cases>
+        <test-case start='1676328568650' status='passed' stop='1676328603101'>
+            <name>Login with success</name>
+            <title>Login with success</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1676328568829' status='passed' stop='1676328570244'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='c9028779-c0f6-4bb4-b4c2-49c145e90dbf-attachment.png' type='image/png' size='434832'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676328570245' status='passed' stop='1676328570850'>
+                    <name>I set cookie []</name>
+                    <title>I set cookie []</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I set cookie []' source='73b8290c-f797-4ff4-b848-de8edef7f111-attachment.png' type='image/png' size='644752'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676328570850' status='passed' stop='1676328571376'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='01368a9d-db7f-4a08-b441-efc8e4b57041-attachment.png' type='image/png' size='33804'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676328571376' status='failed' stop='1676328571521'>
+                    <name>I see "joao.kleber@teste.com"</name>
+                    <title>I see "joao.kleber@teste.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328571523' status='passed' stop='1676328571890'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328571890' status='passed' stop='1676328581890'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "joao.kleber@teste.com"' source='67c0b28d-b8ff-4c94-87e9-9e4a95f44983-attachment.png' type='image/png' size='33804'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676328581891' status='passed' stop='1676328582061'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328582061' status='passed' stop='1676328592070'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328592070' status='passed' stop='1676328592688'>
+                    <name>I fill field "#user", "joao.kleber@teste.com"</name>
+                    <title>I fill field "#user", "joao.kleber@teste.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328592689' status='passed' stop='1676328592922'>
+                    <name>I fill field "#password", *****</name>
+                    <title>I fill field "#password", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328592923' status='passed' stop='1676328593092'>
+                    <name>I click "#btnLogin"</name>
+                    <title>I click "#btnLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328593092' status='passed' stop='1676328603096'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676328603096' status='passed' stop='1676328603097'>
+                    <name>I grab cookie </name>
+                    <title>I grab cookie </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

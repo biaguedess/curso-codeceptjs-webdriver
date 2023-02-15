@@ -1,0 +1,174 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-13T22:43:50.794Z",
+    "end": "2023-02-13T22:44:31.762Z",
+    "duration": 40968,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e06baa85-b2ec-4aca-ab55-700155de5932",
+      "title": "",
+      "fullFile": "C:\\Projects\\TrilhaQA\\automacao-codeceptjs-web\\steps\\login_test.js",
+      "file": "\\steps\\login_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b5f4882c-ffb1-4786-8e9e-f380f0f39451",
+          "title": "Login User",
+          "fullFile": "C:\\Projects\\TrilhaQA\\automacao-codeceptjs-web\\steps\\login_test.js",
+          "file": "\\steps\\login_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Login User\"",
+              "fullTitle": "Login User \"before all\" hook: codeceptjs.beforeSuite in \"Login User\"",
+              "timedOut": false,
+              "duration": 532,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "e73828c6-257d-4785-9a59-543b814126ea",
+              "parentUUID": "b5f4882c-ffb1-4786-8e9e-f380f0f39451",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Login User\"",
+              "fullTitle": "Login User \"before each\" hook: codeceptjs.before in \"Login User\"",
+              "timedOut": false,
+              "duration": 198,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "dbdd419f-7e91-4dd3-b43d-a38122d57063",
+              "parentUUID": "b5f4882c-ffb1-4786-8e9e-f380f0f39451",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Login User\"",
+              "fullTitle": "Login User \"after all\" hook: codeceptjs.afterSuite in \"Login User\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "3c3943c5-7320-43a1-931e-358f3e492f5f",
+              "parentUUID": "b5f4882c-ffb1-4786-8e9e-f380f0f39451",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Login User\"",
+              "fullTitle": "Login User \"after each\" hook: finalize codeceptjs in \"Login User\"",
+              "timedOut": false,
+              "duration": 40,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "29e6b2db-5e9e-45b2-abdc-3b06ab995474",
+              "parentUUID": "b5f4882c-ffb1-4786-8e9e-f380f0f39451",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login with success",
+              "fullTitle": "Login User: Login with success",
+              "timedOut": false,
+              "duration": 40193,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login}) => {\n    login('user')\n    /*home_page.accessLoginPage()\n    I.fillField('#user','João das Neves')\n    I.fillField('#email',faker.internet.email())\n    I.fillField('#password','123456')\n    I.click('#btnRegister')\n    //var title = await I.grabTitle()\n    //validacao.equal(title,'Cadastro realizado!')\n    I.see('Cadastro realizado!')\n    //I.dontSee('O campo nome deve ser prenchido')\n    //I.wait(10)\n*/",
+              "err": {},
+              "uuid": "2bae0ba1-e2c9-44d4-9e78-72d9dd1ab7f1",
+              "parentUUID": "b5f4882c-ffb1-4786-8e9e-f380f0f39451",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2bae0ba1-e2c9-44d4-9e78-72d9dd1ab7f1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 40193,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
